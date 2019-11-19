@@ -1,3 +1,7 @@
-h1{
-    color: blanchedalmond;
+.Header{
+    background-image: url("../assets/images/woman.jpeg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
