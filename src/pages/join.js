@@ -1,13 +1,27 @@
 import React, { Component } from "react";
-
+import Nav from '../components/Nav';
+import '../css/header.css';
+import Button from "../components/Button"
 class JoinUs extends Component {
-  state = {};
   render() {
     return (
-      <div className="Header">
-        <p>HEADER SECTION</p>
+      <div className="">
         {/* BEGIN HEADER SECTION */}
+        <section className="Header container-fluid">
+          <Nav Home="Home" Aboutus="About Us" FocusArea="Focus Area" OurTeam="Our team" JoinUs="Join Us" />
+          <div className="join">
+            <p className="join_team">Join Our Team</p>
+            <Button children="View Openings" myBtnClass="viewbtn" />
+          </div>
+        </section>
+        <section className="vgg-section">
+          <p className="vgg-section-paragraph">
+            At Venture Garden Group (VGG), the brightest minds driven by an
+            entrepreneurial spirit are transforming Africa through Technology.
+          </p>
 
+          <Button children="View Openings" myBtnClass="viewbtntwo" />
+        </section>
         {/* END HEADER SECTION */}
 
         {/* BEGIN OPEN POSITION SECTION */}
@@ -110,22 +124,9 @@ class JoinUs extends Component {
           </div>
         </section>
 
-        {/* END Why You Will Love it at VGG POSITION SECTION */}
-
         {/* BEGIN FOOTER POSITION SECTION */}
 
         {/* END FOOTER POSITION SECTION */}
-
-        <section className="Values">
-          <div className="container-fluid">
-            <div className="row">
-              <div className="col-xs-12">
-                <h1>Our Core Values</h1>
-              </div>
-              <div col-lg-1></div>
-            </div>
-          </div>
-        </section>
       </div>
     );
   }
