@@ -13,6 +13,7 @@
   box-sizing: border-box;
 }
 
+
 html {
   font-size: 62.5%;
 }
@@ -33,3 +34,23 @@ h6 {
 p {
   font-family: 'Poppins', sans-serif;
 }
+
+.text-p{
+  font-size: 1.8rem;
+}
+
+.text-p1{
+  font-size: 1.7rem;
+  display: block;
+}
+
+
+
+.title-heading{
+  font-weight: bold;
+}
+
+
+
+
+
