@@ -62,22 +62,22 @@ class JoinUs extends Component {
               <img src={Icon} alt="icon1" />
               <h2 className="pt-4"> Ownership </h2>
             </div>
-            <div className=" coreValues   coreValuesimg text-center">
-              <img src={Icon} alt="icon1" className="" />
+            <div className=" coreValues coreValuesimg text-center">
+              <img src={Icon} alt="icon1" className="tabletImg" />
               <h2 className="pt-4">
                 Client Service
               </h2>
             </div>
             <div className="coreValues coreValuesimg text-center">
-              <img src={Icon} alt="icon1" />
+              <img src={Icon} alt="icon1" className="tabletImg"/>
               <h2 className="pt-4">Passion</h2>
             </div>
             <div className=" coreValues coreValuesimg text-center">
-              <img src={Icon} alt="icon1" />
+              <img src={Icon} alt="icon1" className="tabletImg"/>
               <h2 className="pt-4">Integrity</h2>
             </div>
             <div className=" coreValues coreValuesimg text-center">
-              <img src={Icon} alt="icon1" />
+              <img src={Icon} alt="icon1" className="tabletImg"/>
               <h2 className="pt-4 ">Excellence</h2>
             </div>
           </div>

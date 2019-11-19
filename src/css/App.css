@@ -106,8 +106,6 @@ p {
 }
 
 @media (min-width:767px) and (max-width:768px) {
-
-
   .valuesRows {
     width: 90%;
     margin: auto;
@@ -123,4 +121,5 @@ p {
     font-size: 1.2rem;
     margin:1.5rem 0;
   }
+  
 }
