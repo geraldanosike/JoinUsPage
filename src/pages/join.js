@@ -4,8 +4,8 @@ class JoinUs extends Component {
     state = {  }
     render() { 
         return ( <div className="Header">
-            <p>HEADER</p>
-            
+            <p>HEADER SECTION</p>
+
         </div> );
     }
 }
