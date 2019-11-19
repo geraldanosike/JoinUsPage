@@ -7,18 +7,21 @@ class JoinUs extends Component {
       <div className="Header">
         <p>HEADER SECTION</p>
 
-        <section className = "Values">
-            <div className = "container-fluid">
-                <div className ="row">
-                    <div className = "col-xs-12">
-                        <h1>Our Core Values</h1>
-                    </div>
-                    <div col-lg-1>
-
-                    </div>
-                </div>
+        <section className="Values">
+          <div className="container-fluid values-Container">
+            <div className="row ">
+              <div className="col-xs-12">
+                <h1 className="text-center">Our Core Values</h1>
+              </div>
+              <div col-lg-1> </div>
+              <div col-lg-1></div>
+              <div col-lg-1></div>
+              <div col-lg-1></div>
+              <div col-lg-1></div>
+              <div col-lg-1></div>
+              <div col-lg-1></div>
             </div>
-
+          </div>
         </section>
       </div>
     );
