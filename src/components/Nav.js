@@ -23,7 +23,7 @@ const Nav = ({ JoinUs, OurTeam, Home, Aboutus, FocusArea }) => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav ml-auto">
+            <ul className="navbar-nav ml-auto" style={{ paddingTop: "3rem"}}>
               <li className="nav-item">
                 <NavLink to="/home" className="nav-link">
                   {Home} <span className="sr-only">(current)</span>
@@ -45,12 +45,7 @@ const Nav = ({ JoinUs, OurTeam, Home, Aboutus, FocusArea }) => {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink
-                  to="/joinus"
-                  className="nav-link"
-                  style={{ paddingTop: "3rem" }}
-                  id="joinus"
-                >
+                <NavLink to="/joinus" className="nav-link">
                   {JoinUs} <span className="sr-only">(current)</span>
                 </NavLink>
               </li>

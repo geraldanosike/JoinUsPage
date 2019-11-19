@@ -8,7 +8,7 @@ class JoinUs extends Component {
       <div className="">
         {/* BEGIN HEADER SECTION */}
         <section className="Header container-fluid">
-          <Nav JoinUs="Join Us" />
+          <Nav Home="Home" Aboutus="About Us" FocusArea="Focus Area" OurTeam="Our team" JoinUs="Join Us" />
           <div className="join">
             <p className="join_team">Join Our Team</p>
             <Button children="View Openings" myBtnClass="viewbtn" />
