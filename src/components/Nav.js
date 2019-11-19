@@ -1,15 +1,15 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import "../css/header.css";
-import imglogo from "../assets/images/logo.png";
+import imglogo from "../assets/images/huge.png";
 
 const Nav = ({ JoinUs, OurTeam, Home, Aboutus, FocusArea }) => {
   return (
     <div>
-      <nav className="navbar navbar-expand-sm navbar-light fixed-top ">
+      <nav className="navbar navbar-expand-sm navbar-light">
         <div className="container mt-2">
           <NavLink to="/" className="navbar-brand">
-            <img src={imglogo} alt="" style={{ width: "200px" }} />
+            <img src={imglogo} alt="" style={{ width: "250px" }} />
           </NavLink>
           <button
             className="navbar-toggler"
@@ -45,7 +45,12 @@ const Nav = ({ JoinUs, OurTeam, Home, Aboutus, FocusArea }) => {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to="/joinus" className="nav-link">
+                <NavLink
+                  to="/joinus"
+                  className="nav-link"
+                  style={{ paddingTop: "3rem" }}
+                  id="joinus"
+                >
                   {JoinUs} <span className="sr-only">(current)</span>
                 </NavLink>
               </li>
