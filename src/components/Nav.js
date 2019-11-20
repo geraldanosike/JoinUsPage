@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import "../css/header.css";
-import imglogo from "../assets/images/huge.png";
+import imglogo from "../assets/images/logo.png";
 
 const Nav = ({ JoinUs, OurTeam, Home, Aboutus, FocusArea }) => {
   return (
@@ -9,7 +9,7 @@ const Nav = ({ JoinUs, OurTeam, Home, Aboutus, FocusArea }) => {
       <nav className="navbar navbar-expand-sm navbar-light">
         <div className="container mt-2">
           <NavLink to="/" className="navbar-brand">
-            <img src={imglogo} alt="" style={{ width: "250px" }} />
+            <img src={imglogo} alt="" style={{ width: "200px" }} />
           </NavLink>
           <button
             className="navbar-toggler"
