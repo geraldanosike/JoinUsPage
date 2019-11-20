@@ -1,5 +1,4 @@
 import React from "react";
-import pv from "../assets/images/pv.jpg"
 import "../css/Jobviews.css"
 
 
