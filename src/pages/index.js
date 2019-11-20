@@ -5,6 +5,7 @@ import CoreValues from "../components/CoreValues";
 import Footer from "../components/Footer";
 import Header from '../components/Header';
 import Team from "../components/Team";
+import Frame from '../components/Frame';
 class JoinUs extends Component {
   render() {
     return (
@@ -12,7 +13,7 @@ class JoinUs extends Component {
         {/* BEGIN HEADER SECTION */}
         <Header />
         {/* END HEADER SECTION */}
-
+        <Frame/>
         {/* BEGIN OPEN POSITION SECTION */}
         <Jobview />
         {/* END OPEN POSITION SECTION */}

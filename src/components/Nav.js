@@ -6,10 +6,10 @@ import imglogo from "../assets/images/logo.png";
 const Nav = ({ JoinUs, OurTeam, Home, Aboutus, FocusArea }) => {
   return (
     <div>
-      <nav className="navbar navbar-expand-md navbar-light">
-        <div className="container mt-2">
+      <nav className="navbar navbar-expand-md navbar-light ">
+        <div className="container-fluid mt-2">
           <NavLink to="/" className="navbar-brand">
-            <img src={imglogo} alt="" style={{ width: "200px" }} />
+            <img src={imglogo} className="img"alt="" style={{ width: "200px" }} />
           </NavLink>
           <button
             className="navbar-toggler"

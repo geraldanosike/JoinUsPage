@@ -7,7 +7,7 @@ import Nav from "../components/Nav";
 const Header = () => {
     return (
       <div>
-        <section className="Header container-fluid">
+        <section className="Header ">
           <Nav
             Home="Home"
             Aboutus="About Us"
@@ -20,15 +20,7 @@ const Header = () => {
             <Button children="View Openings" myBtnClass="viewbtn" />
           </div>
         </section>
-        <section className="vgg-section">
-          <p className="vgg-section-paragraph">
-            At Venture Garden Group (VGG), the brightest minds driven by an
-            entrepreneurial spirit are transforming Africa through Technology.
-          </p>
-
-          {/* footer section ends here */}
-          <Button children="View Openings" myBtnClass="viewbtntwo" />
-        </section>
+     
       </div>
     );
 }
