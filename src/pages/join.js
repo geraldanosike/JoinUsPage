@@ -18,7 +18,6 @@ class JoinUs extends Component {
         {/* BEGIN Why You Will Love it at VGG POSITION SECTION */}
         <Team/>
         {/* BEGIN FOOTER POSITION SECTION */}
-
         <div className="container-fluid Values">
          <CoreValues/>
         </div>
