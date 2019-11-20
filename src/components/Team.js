@@ -3,7 +3,7 @@ import "../css/App.css";
 const Team = () => {
     return (
       <div>
-        <div className="container-fluid">
+        <div className="container-fluid mt-5">
           <div className="row">
             <div className="col-md-12 m-auto text-center">
               <h1 className="title-heading">Why You Will Love it at VGG</h1>
