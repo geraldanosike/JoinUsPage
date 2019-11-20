@@ -1,5 +1,5 @@
 .Header{
-    background-image: url("../assets/images/pexels-woman.jpeg");
+    background-image: url("../assets/images/blk.jpeg");
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -40,6 +40,9 @@ border: 1.5px solid #fff;
 
    
 }
+.viewbtn:focus{
+    outline: none;
+}
 
 .vgg-section{
 text-align: center;   
@@ -72,6 +75,10 @@ color:  var(--color-darkGreen);
    
 }
 
+.viewbtntwo:focus{
+    outline: none;
+}
+
 .nav-item{
 padding-left: 1.5rem;
 }
@@ -79,4 +86,13 @@ padding-left: 1.5rem;
 .navbar-light .navbar-nav .nav-link:hover{
     border-bottom: 3px solid var( --color-vggBlue);
     padding-bottom: 0;
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+}
+
+.navbar-brand{
+    padding-top: 2.5rem;
 }
