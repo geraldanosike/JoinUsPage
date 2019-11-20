@@ -1,3 +1,82 @@
-h1{
-    color: blanchedalmond;
+.Header{
+    background-image: url("../assets/images/pexels-woman.jpeg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-link{
+    font-size: 2rem;
+}
+
+.join{
+position: absolute;
+top:50%;
+left: 9rem;
+}
+
+.join_team{
+    font-size: 6rem;
+    color: #fff;
+}
+
+.viewbtn{
+padding: .4rem 4rem;
+font-size: 2.5rem;
+background: none;
+color: #fff;
+border-radius: 4rem;
+border: 1.5px solid #fff;
+ transition: all .2s ease-in-out;
+}
+
+.viewbtn:hover{
+    background: #fff;
+    color: #51b64b;
+    transform: scale(1.1);
+
+   
+}
+
+.vgg-section{
+text-align: center;   
+    padding: 6rem 0;
+    width: 60%;
+    margin: 2rem auto;
+}
+
+.vgg-section-paragraph{
+padding-bottom: 2rem;
+    font-size: 2rem;
+    color:  var(--color-darkGreen);
+}
+
+.viewbtntwo{
+    padding: .4rem 4rem;
+font-size: 2rem;
+background: var( --color-darkGreen);
+color: #fff;
+border-radius: 4rem;
+border: 1.5px solid #fff;
+ transition: all .2s ease-in-out;
+}
+
+.viewbtntwo:hover{
+   border: 1.5px solid  var(--color-darkGreen);
+    transform: scale(1.02);
+background: none;
+color:  var(--color-darkGreen);
+   
+}
+
+.nav-item{
+padding-left: 1.5rem;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    border-bottom: 3px solid var( --color-vggBlue);
+    padding-bottom: 0;
 }

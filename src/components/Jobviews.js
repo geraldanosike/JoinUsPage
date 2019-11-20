@@ -1,6 +1,6 @@
 import React from "react";
-import pv from "./assets/images/pv.jpg"
-import "./css/Jobviews.css"
+import pv from "../assets/images/pv.jpg"
+import "../css/Jobviews.css"
 
 
 class Jobview extends React.Component {
