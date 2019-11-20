@@ -13,6 +13,7 @@
   box-sizing: border-box;
 }
 
+
 html {
   font-size: 62.5%;
 }
@@ -62,6 +63,28 @@ p {
 .footerText {
   font-size: 1.3rem;
 }
+<<<<<<< HEAD
+
+.text-p{
+  font-size: 1.8rem;
+}
+
+.text-p1{
+  font-size: 1.7rem;
+  display: block;
+}
+
+
+
+.title-heading{
+  font-weight: bold;
+}
+
+
+
+
+
+=======
 .footerText:first-child {
   padding-top: 42px;
 }
@@ -124,3 +147,4 @@ p {
     margin:1.5rem 0;
   }
 }
+>>>>>>> d1eba0dccd61fce1090ee6acee4aa9c57c04633b
