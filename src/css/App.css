@@ -64,6 +64,7 @@ p {
   font-size: 1.3rem;
 }
 
+
 .text-p{
   font-size: 1.8rem;
 }
@@ -72,8 +73,6 @@ p {
   font-size: 1.7rem;
   display: block;
 }
-
-
 
 .title-heading{
   font-weight: bold;
@@ -127,6 +126,7 @@ p {
   
 }
 
+/* Specific for tablet */
 @media (min-width:767px) and (max-width:768px) {
   .valuesRows {
     width: 90%;
