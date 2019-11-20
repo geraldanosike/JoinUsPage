@@ -63,7 +63,7 @@ p {
 .footerText {
   font-size: 1.3rem;
 }
-<<<<<<< HEAD
+
 
 .text-p{
   font-size: 1.8rem;
@@ -74,17 +74,10 @@ p {
   display: block;
 }
 
-
-
 .title-heading{
   font-weight: bold;
 }
 
-
-
-
-
-=======
 .footerText:first-child {
   padding-top: 42px;
 }
@@ -128,6 +121,7 @@ p {
   
 }
 
+/* Specific for tablet */
 @media (min-width:767px) and (max-width:768px) {
   .valuesRows {
     width: 90%;
