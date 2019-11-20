@@ -63,7 +63,6 @@ p {
 .footerText {
   font-size: 1.3rem;
 }
-<<<<<<< HEAD
 
 .text-p{
   font-size: 1.8rem;
@@ -84,7 +83,7 @@ p {
 
 
 
-=======
+/* ======= */
 .footerText:first-child {
   padding-top: 42px;
 }
