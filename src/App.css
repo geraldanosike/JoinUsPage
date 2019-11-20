@@ -21,33 +21,30 @@ body {
   background-color: #fafafa;
 }
 
+
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 p {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-.text-p{
+.text-p {
   font-size: 1.7rem;
 }
 
-.text-p1{
+.text-p1 {
   font-size: 1.6rem;
   display: block;
 }
 
-.title-heading{
+.title-heading {
   font-weight: bold;
 }
-
-
-
-
-

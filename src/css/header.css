@@ -6,6 +6,7 @@
     background-position: center;
     position: relative;
     font-family: 'Poppins', sans-serif;
+    margin-bottom: 10rem;
 }
 
 .nav-link{
@@ -23,6 +24,20 @@ left: 9rem;
     color: #fff;
 }
 
+@media only screen and (max-width: 768px) {
+  .join_team {
+    font-size: 4rem;
+  }
+  .viewbtn{
+padding: .2rem 2rem;
+font-size: 1.5rem;
+background: none;
+color: #fff;
+border-radius: 2rem;
+border: 1.5px solid #fff;
+
+}
+}
 .viewbtn{
 padding: .4rem 4rem;
 font-size: 2.5rem;
@@ -92,11 +107,22 @@ padding-left: 1.5rem;
 .navbar-light .navbar-nav .nav-link{
     color: #fff;
 }
+
+
 .nav-link{
      color: #fff;
 }
 .navbar-brand{
     padding-top: 2.5rem;
+}
+
+@media only screen and (max-width: 868px) {
+ .navbar-brand{
+     padding-top: 1.5rem;
+     width: "100px"
+  }
+
+
 }
 
 .navbar-toggler{
