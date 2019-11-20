@@ -112,3 +112,10 @@ button:active{
 .notification:focus{
     outline: none;
 }
+.jobView_Bg{
+    background-image:url(../assets/images/pv.jpg);
+    background-origin: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}

@@ -7,10 +7,11 @@ class Jobview extends React.Component {
     render() {
 
         return <div className="jobView">
-            <img src={pv} style={{
-                maxHeight: "65vh",
-                minWidth: "100%"
-            }} alt="" />
+            {/* <img src={pv} style={{maxHeight: "65vh",minWidth: "100%"}} alt="" /> */}
+
+            <div className = "container-fluid jobView_Bg">
+                
+            </div>
             <div className="jobtext">
                 <h1> Open Positions</h1>
                 <p>We're looking for people to join the team who are excited as we are to help build platforms that empower future generations to be successful.</p>
