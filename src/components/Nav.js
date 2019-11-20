@@ -33,27 +33,37 @@ class Nav extends React.Component {
             {/* <ul   className = {showToggle === true ? " nav_items " : "nav_itemsOpen"}> */}
             <ul   className = "nav_items deskstop">
               <li className="nav_item">
-                <NavLink activeClassName="active" to="/home" className="nav_link">
+                <NavLink activeStyle={{
+color:'green'
+}} to="/home" className="nav_link">
                   {Home}{" "}
                 </NavLink>
               </li>
               <li className="nav_item">
-                <NavLink activeClassName="active" to="/aboutus" className="nav_link">
+                <NavLink activeStyle={{
+color:'green'
+}} to="/aboutus" className="nav_link">
                   {Aboutus}{" "}
                 </NavLink>
               </li>
               <li className="nav_item">
-                <NavLink activeClassName="active" to="/focus" className="nav_link">
+                <NavLink activeStyle={{
+color:'green'
+}} to="/focus" className="nav_link">
                   {FocusArea}{" "}
                 </NavLink>
               </li>
               <li className="nav_item">
-                <NavLink activeClassName="active" to="/ourteam" className="nav_link">
+                <NavLink activeStyle={{
+color:'green'
+}} to="/ourteam" className="nav_link">
                   {OurTeam}{" "}
                 </NavLink>
               </li>
               <li className="nav_item">
-                <NavLink activeClassName="active" to="/joinus" className="nav_link">
+                <NavLink activeStyle={{
+color:'green'
+}} to="/joinus" className="nav_link">
                   {JoinUs}{" "}
                 </NavLink>
               </li>
@@ -63,27 +73,37 @@ class Nav extends React.Component {
           <div className='mobileView'>
             <ul className = {showToggle === true ? " mobile_nav_items " : "nav_itemsOpen "}>>
               <li className="mobile_nav_item">
-                <NavLink activeClassName="active" to="/home" className="nav_link">
+                <NavLink activeStyle={{
+color:'green'
+}} to="/home" className="nav_link">
                   {Home}{" "}
                 </NavLink>
               </li>
               <li className="mobile_nav_item">
-                <NavLink activeClassName="active" to="/aboutus" className="nav_link">
+                <NavLink activeStyle={{
+color:'green'
+}} to="/aboutus" className="nav_link">
                   {Aboutus}{" "}
                 </NavLink>
               </li>
               <li className="mobile_nav_item">
-                <Link activeClassName="active" to="/focus" className="nav_link">
+                <Link activeStyle={{
+color:'green'
+}} to="/focus" className="nav_link">
                   {FocusArea}{" "}
                 </Link>
               </li>
               <li className="mobile_nav_item">
-                <NavLink activeClassName="active" to="/ourteam" className="nav_link">
+                <NavLink activeStyle={{
+color:'green'
+}} to="/ourteam" className="nav_link">
                   {OurTeam}{" "}
                 </NavLink>
               </li>
               <li className="mobile_nav_item">
-                <NavLink activeClassName="active" to="/joinus" className="nav_link">
+                <NavLink activeStyle={{
+color:'green'
+}} to="/joinus" className="nav_link">
                   {JoinUs}{" "}
                 </NavLink>
               </li>
