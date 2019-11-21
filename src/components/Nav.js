@@ -3,58 +3,122 @@ import { NavLink, Link } from "react-router-dom";
 import "../css/header.css";
 import imglogo from "../assets/images/logo.png";
 
-const Nav = ({ JoinUs, OurTeam, Home, Aboutus, FocusArea }) => {
-  return (
-    <div>
-      <nav className="navbar navbar-expand-md navbar-light ">
-        <div className="container-fluid mt-2">
-          <NavLink to="/" className="navbar-brand">
-            <img src={imglogo} className="img"alt="" style={{ width: "200px" }} />
-          </NavLink>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav ml-auto" style={{ paddingTop: "3rem"}}>
-              <li className="nav-item">
-                <NavLink to="/home" className="nav-link">
-                  {Home} <span className="sr-only">(current)</span>
+class Nav extends React.Component {
+  constructor(props) {
+    super();
+    this.state = {
+      showToggle: false
+    };
+  }
+
+  showToggle = () => {
+    const { showToggle } = this.state;
+    this.setState({ showToggle: !showToggle });
+  };
+
+  render() {
+    const {showToggle} = this.state;
+    const { JoinUs, OurTeam, Home, Aboutus, FocusArea } = this.props;
+    return (
+      <div>
+        <div className="container-fluid main_nav">
+          <div>
+            <NavLink to="/" className="navbar_brand">
+              <img src={imglogo} className="img" alt="logo" />
+            </NavLink>
+          </div>
+          <div className="spacer"></div>
+
+          <div>
+            {/* <ul   className = {showToggle === true ? " nav_items " : "nav_itemsOpen"}> */}
+            <ul   className = "nav_items deskstop">
+              <li className="nav_item">
+                <NavLink activeStyle={{
+color:'green'
+}} to="/home" className="nav_link">
+                  {Home}{" "}
                 </NavLink>
               </li>
-              <li className="nav-item">
-                <NavLink to="/aboutus" className="nav-link">
-                  {Aboutus} <span className="sr-only">(current)</span>
+              <li className="nav_item">
+                <NavLink activeStyle={{
+color:'green'
+}} to="/aboutus" className="nav_link">
+                  {Aboutus}{" "}
                 </NavLink>
               </li>
-              <li className="nav-item">
-                <Link to="/focus" className="nav-link">
-                  {FocusArea} <span className="sr-only">(current)</span>
+              <li className="nav_item">
+                <NavLink activeStyle={{
+color:'green'
+}} to="/focus" className="nav_link">
+                  {FocusArea}{" "}
+                </NavLink>
+              </li>
+              <li className="nav_item">
+                <NavLink activeStyle={{
+color:'green'
+}} to="/ourteam" className="nav_link">
+                  {OurTeam}{" "}
+                </NavLink>
+              </li>
+              <li className="nav_item">
+                <NavLink activeStyle={{
+color:'green'
+}} to="/joinus" className="nav_link">
+                  {JoinUs}{" "}
+                </NavLink>
+              </li>
+            </ul>
+          </div>
+
+          <div className='mobileView'>
+            <ul className = {showToggle === true ? " mobile_nav_items " : "nav_itemsOpen "}>>
+              <li className="mobile_nav_item">
+                <NavLink activeStyle={{
+color:'green'
+}} to="/home" className="nav_link">
+                  {Home}{" "}
+                </NavLink>
+              </li>
+              <li className="mobile_nav_item">
+                <NavLink activeStyle={{
+color:'green'
+}} to="/aboutus" className="nav_link">
+                  {Aboutus}{" "}
+                </NavLink>
+              </li>
+              <li className="mobile_nav_item">
+                <Link activeStyle={{
+color:'green'
+}} to="/focus" className="nav_link">
+                  {FocusArea}{" "}
                 </Link>
               </li>
-              <li className="nav-item">
-                <NavLink to="/ourteam" className="nav-link">
-                  {OurTeam} <span className="sr-only">(current)</span>
+              <li className="mobile_nav_item">
+                <NavLink activeStyle={{
+color:'green'
+}} to="/ourteam" className="nav_link">
+                  {OurTeam}{" "}
                 </NavLink>
               </li>
-              <li className="nav-item">
-                <NavLink to="/joinus" className="nav-link">
-                  {JoinUs} <span className="sr-only">(current)</span>
+              <li className="mobile_nav_item">
+                <NavLink activeStyle={{
+color:'green'
+}} to="/joinus" className="nav_link">
+                  {JoinUs}{" "}
                 </NavLink>
               </li>
             </ul>
           </div>
         </div>
-      </nav>
-    </div>
-  );
-};
+
+        <div className = {showToggle === false ?'hamburger showHamburger ': 'hamburger is-active hamburger2' }  id="hamburger-1" onClick = {this.showToggle}>
+              <span className="line"></span>
+              <span className="line"></span>
+              <span className="line"></span>
+        </div>
+      </div>
+    );
+  }
+}
 
 export default Nav;
