@@ -13,14 +13,13 @@
   box-sizing: border-box;
 }
 
-
 html {
   font-size: 62.5%;
 }
 
 body {
   background-color: #fafafa;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 h1,
@@ -36,12 +35,11 @@ p {
   font-family: "Poppins", sans-serif;
 }
 
-
 .container-fluid.Values {
   background-color: #013444;
   height: auto;
   color: white;
-  margin:0 auto;
+  margin: 0 auto;
 }
 .valuesRows {
   width: 100%;
@@ -49,45 +47,43 @@ p {
   justify-content: space-around;
 }
 .footer {
-  width: 90%;
+  background-color: var(--color-darkGreen);
+  width: 100%;
   padding: 5rem;
+  padding-bottom: 0;
+  color: white;
 }
 .contactList {
   list-style: none;
 }
 .contactList a {
-  color: black;
+  color: white;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 .footerText {
   font-size: 1.3rem;
 }
 
-
-.text-p{
-  font-size: 1.8rem;
+.text-p {
+  font-size: 1.5rem;
 }
 
-.text-p1{
-  font-size: 1.7rem;
+.text-p1 {
+  font-size: 1.5rem;
   display: block;
 }
 
-.title-heading{
+.title-heading {
   font-weight: bold;
 }
-
-
-
-
 
 /* ======= */
 .footerText:first-child {
   padding-top: 42px;
 }
 .footerBase {
-  margin-top: 100px;
+  margin-top: 1rem;
 }
 .lastfooterText {
   float: right;
@@ -97,7 +93,7 @@ p {
 @media only screen and (min-width: 320px) and (max-width: 479px) {
   .valuesRows {
     width: 90%;
-    margin: auto;
+    margin: 0 auto;
   }
   .coreValues {
     width: 50%;
@@ -106,28 +102,26 @@ p {
   .coreValues h2 {
     font-size: 1rem;
   }
-  .valuesRows{
+  .valuesRows {
     /* margin-left: 4.5rem; */
   }
   .footer {
     width: 95%;
     margin-top: -53px;
-
   }
   .footerBase {
     margin-top: 2rem;
   }
-  .footerText:last-child{
+  .footerText:last-child {
     float: left;
   }
-  .coreValuesimg{
-    margin-top:2rem ;
+  .coreValuesimg {
+    margin-top: 2rem;
   }
-  
 }
 
 /* Specific for tablet */
-@media (min-width:767px) and (max-width:768px) {
+@media (min-width: 767px) and (max-width: 768px) {
   .valuesRows {
     width: 90%;
     margin: auto;
@@ -136,12 +130,11 @@ p {
     width: 33%;
     margin: auto;
   }
-  .valuesRows{
+  .valuesRows {
     /* margin-left: 9rem; */
   }
   .coreValues h2 {
     font-size: 1.2rem;
-    margin:1.5rem 0;
+    margin: 1.5rem 0;
   }
-  
 }
